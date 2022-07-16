@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Survey</title>
+    <link rel = "stylesheet" href = "styles.css" />
+</head>
+<body>
+    <h1>GAMING SURVEY</h1>
+    <p>Tell us about your gaming preferences!</p>
+    <form action = "https://game-zone-survey.w3spaces.com">
+        <div class = "info">
+            <h2>A little about yourself</h2>
+            <label>
+                Enter your name : 
+                <input type = "text" name = "name" required />
+            </label>
+            <label>
+                Enter your age : 
+                <input type = "text" name = "age" required />
+            </label>
+            <label>
+                Enter your profession : 
+                <input type = "text" name = "job" required/>
+            </label>
+        </div>
+        <div class = "info">
+            <h2>What genre of games do you like?</h2><br>
+            <label><input type = "checkbox" name = "FPS"/>First Person Shooter<br></label>
+            <label><input type = "checkbox" name = "RPG"/>Role Playing<br></label>
+            <label><input type = "checkbox" name = "Adventure"/>Adventure<br></label>
+            <label><input type = "checkbox" name = "Racing"/>Racing<br></label>
+            <label><input type = "checkbox" name = "Casual/Cards/Board"/>Casual/Cards/Board<br></label>
+            <label><input type = "checkbox" name = "Puzzle"/>Puzzle</label>
+            <label>Other (Please specify) <input type = "text" name = "other"/></label>
+        </div>
+        <div class = "info">
+            <h2>Which of the following games are you familiar with ?</h2><br>
+            <label><input type = "checkbox" name = "Warzone" />Call of Duty Warzone<br></label>
+            <label><input type = "checkbox" name = "GTA V" />GTA V<br></label>
+            <label><input type = "checkbox" name = "Minecraft" />Minecraft<br></label>
+            <label><input type = "checkbox" name = "Valorant" />Valorant<br></label>
+            <label><input type = "checkbox" name = "Apex Legends" />Apex Legends<br></label>
+            <label><input type = "checkbox" name = "Fortnite" />Fortnite<br></label>
+            <label>Other (Please specify) <input type = "text" name = "other"/></label>
+        </div>
+        <div class = "info">
+            <h2>In which of these platforms do you generally game ?</h2>
+            <label><input type = "checkbox" name = "PC" />PC<br></label>
+            <label><input type = "checkbox" name = "console" />Console (Xbox/PS)<br></label>
+            <label><input type = "checkbox" name = "mobile" />Mobile<br></label>
+            <label>Other (Please specify) <input type = "text" name = "other"/></label>
+        </div>
+        <div class = "info">
+            <h2>What is your favourite game ?</h2><br>
+            <label>Comment here ! <input type = "text" name = "fav" /><br></label>
+            <h2>How many hours a day do you game ? </h2><br>
+            <label><input type = "radio" name = "1" />Less than an hour<br></label>
+            <label><input type = "radio" name = "1" />1 - 2 hours a day<br></label>
+            <label><input type = "radio" name = "1" />2 - 3 hours a day<br></label>
+            <label><input type = "radio" name = "1" />3 - 4 hours a day<br></label>
+            <label><input type = "radio" name = "1" />More than 4 hours a day<br></label>
+        </div>
+        <div class = "info">
+            <h2>What do you think about the future of gaming ? </h2>
+            <label> Let us know your thoughts ! 
+                <textarea name = "text" rows = 6 cols = 20></textarea>
+            </label>
+        </div>
+        <input type = "submit" value = "Submit" id = "sub">
+    </form>
+</body>
+</html>

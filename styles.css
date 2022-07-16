@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Stick+No+Bills:wght@800&display=swap');
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/5400421.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, p{
+    text-align: center;
+    color : cyan;
+    font-family : Stick No Bills;
+    font-size: 50px;
+    text-shadow: 
+    0 0 7px lightseagreen,
+    0 0 10px lightseagreen,
+    0 0 15px lightseagreen,
+    0 0 25px lightseagreen,
+    0 0 30px lightseagreen,
+    0 0 40px lightseagreen;
+}
+h2{
+    text-align: center;
+    color : cyan;
+    font-family : Stick No Bills;
+    font-size: 30px;
+    text-shadow: 
+    0 0 7px lightseagreen,
+    0 0 10px lightseagreen,
+    0 0 15px lightseagreen,
+    0 0 25px lightseagreen,
+    0 0 30px lightseagreen,
+    0 0 40px lightseagreen;
+}
+label {
+    display: block;
+    margin : 25px auto 25px auto;
+    font-size: 25px;
+    font-family : Stick No Bills;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: lightblue;
+}
+
+.info {
+    max-width: 650px;
+    background: rgba(255, 255, 255, 0.192);
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+    margin: 50px auto 25px auto;
+    backdrop-filter: blur(10px);
+}
+input[type = text], textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid lightseagreen;
+}
+
+input[type = checkbox]{
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+#sub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Stick No Bills;
+}
